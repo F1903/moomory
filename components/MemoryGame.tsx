@@ -57,8 +57,8 @@ export default function MemoryGame() {
 
   return (
     <div className="text-center">
-      <h1>Memory Game</h1>
-      {gameOver && <h2 className="text-green-500 p-5">You WON! Congrats!</h2>}
+      <h1>Moo-mory Game</h1>
+      {gameOver && <h2 className="text-green-500 p-5">You are Lamumu now! Congrats!</h2>}
       <div className="grid grid-cols-4 gap-5 mt-5">
         {cards.map((card, index) => (
           <div
